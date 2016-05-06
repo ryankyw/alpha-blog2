@@ -1,0 +1,17 @@
+<h1> Showing the successful article </h1>
+
+<p>
+  Title: <%= @article.title %>
+</p>
+
+<p>
+  Description: <%= @article.description %>
+</p>
+
+<p>
+  <%= link_to "Edit your article", edit_article_path(@article) %>
+</p>
+
+<p>
+  <%= link_to "Return to Main Page", articles_path %>
+</p>
